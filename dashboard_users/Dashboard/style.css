@@ -4,7 +4,11 @@
     box-sizing: border-box;
     outline: none;
     border: none;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+/*Header*/
 
 body{
     width: 100vw;
@@ -23,10 +27,6 @@ header{
     align-items: center;
 
     background-color: #fff;
-}
-
-header > div{
-    /*background-color: blue;*/
 }
 
 header img{
@@ -67,3 +67,47 @@ header img{
 .userLoged img{
     border-radius: 50%;
 }
+
+/*Body*/
+
+main{
+    padding: 3vh 2vw;
+}
+.user{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section>button{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 3%;
+    margin-top: 3vh;
+    align-self: flex-start;
+
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: bolder;
+    background-color: #65DB96;
+}
+
+.users{
+    width: 95vw;
+    height: 60vh;
+    display: flex;
+    margin-top: 6vh;
+    background-color: yellowgreen;
+    justify-content: space-around;
+}
+
