@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/p.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/menu_burguer.png" alt="Menu" width="30px" height="30px">
+        <div class="user">
+            <div class="exit">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="27" height="27" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                    <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                  </svg>
+            </div>
+            <div class="userLoged">
+                <img src="img/p.png" alt="usuario logado">
+                <h3>admin</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-plus" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="9" cy="7" r="4" />
+                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                <path d="M16 11h6m-3 -3v6" />
+              </svg>
+            <h2>Novo usuario</h2>
+        </section>
+        <form action="">
+            <div class="input-group span2">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Nome" require>
+            </div>
+            <div class="input-group span2">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Senha" require>
+            </div>
+            <div class="input-group span2">
+                <label for="Tipo - usuário">Tipo - Usuario</label>
+                <select name="cars" id="cars">
+                    <option value="User">User</option>
+                    <option value="Adminstrator">Adminstrator</option>
+                    <option value="RH">Human Resources</option>
+                  </select>
+            </div>
+            <button>Cadastrar</button>
+        </form>
+    </main>
+</body>
+
+</html>
