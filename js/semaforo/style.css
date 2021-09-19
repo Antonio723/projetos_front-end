@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 20vw;
+    height: 80vh;
+    background-color: #262626;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    orientation: column;
+    gap: 30px;
+    padding: 40px 0px;
+
+    border: solid 3px #a5a5a5;
+}
+
+.circulo{
+    width: 9vw;
+    height: 30vh;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
