@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/semaforo.png" type="image/x-icon">
+    <title>Semaforo</title>
 </head>
 <body>
     <main>
-        <div class="circulo red"></div>
-        <div class="circulo yellow"></div>
-        <div class="circulo green"></div>
+        <div class="semaforoCarro">
+            <div id="greenCar" class="circulo red"></div>
+            <div id="redCar" class="circulo yellow"></div>
+            <div id="yellowCar" class="circulo green"></div>
+        </div>
+        <div class="semaforoPedestre">
+            <div class="circuloPedestre red">
+                <div class="head"></div>
+                <div class="body">
+                    <div class="arms"></div>
+                    <div class="arms"></div>
+                </div>
+            </div>
+            <div class="circuloPedestre green"></div>
+        </div>
     </main>
+    <section>
+        <div class="inputsNumber">
+            <h3>Tempo pedestres:</h3>
+            <input id="timeCar" type="number">
+        </div>
+        <div class="inputsNumber">
+            <h3>Tempo veiculos:</h3>
+            <input type="number">
+        </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 </html>

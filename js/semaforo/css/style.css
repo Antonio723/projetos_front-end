@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+/*Semaforos*/
+main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.semaforoCarro{
+    width: 250px;
+    height: 500px;
+    background-color: #262626;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    orientation: column;
+    gap: 30px;
+    padding: 40px 0px;
+
+    border: solid 3px #a5a5a5;
+}
+.circulo{
+    width: 130px;
+    height: 130px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.semaforoPedestre{
+    width: 125px;
+    height: 200px;
+    background-color: #262626;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    orientation: column;
+    gap: 15px;
+    padding: 10px 0px;
+
+    border: solid 3px #a5a5a5;
+}
+
+.circuloPedestre{
+    width: 60px;
+    height: 60px;
+    /*background-color: brown;*/
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*Boneco palito*/
+.head{
+    width: 15px;
+    height: 15px;
+    background-color: #262626;
+    border-radius: 50%;
+}
+
+.body{
+    width: 17px;
+    height: 20px;
+    background-color: #262626;
+    display: flex;
+}
+
+.arms{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    transform: rotate 1000%;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+
+/*Ações*/
+section{
+    width: 500px;
+    height: 160px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 15px 0px;
+    padding: 15px;
+}
+
+.inputsNumber{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: #5a5858;
+    color: aliceblue;
+}
+
+input{
+    width: 160px;
+    height: 30px;
+}
