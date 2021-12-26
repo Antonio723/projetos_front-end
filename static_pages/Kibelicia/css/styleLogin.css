@@ -15,11 +15,12 @@ body{
 }
 
 #left{
-    width: 600px;
+    width: 650px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     background-color: #32DF9A;
 }
 
@@ -32,6 +33,7 @@ body{
     font-size: 48px;
     font-weight: bold;
     color: #fff;
+    margin-left: -67px;
 }
 
 #left #subtitle{
