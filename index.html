@@ -1,66 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="pagina principal de direcionamento as ferramentas de calculo de fiis, modelos de sites e paginas de captação de publico para o site">
-    <meta name="keywords" content="redirect, tools, firt page">
-    <meta name="author" content="Antonio Ailton">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>first page</title>
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="/index/css/style2.css">
+    <title>Portifolio</title>
 </head>
 
 <body>
-    <h1>Projetos para testar conehcimentos</h1>
-    <h2>Ferramentas funcionais</h2>
-    <!-- <div class="card">
-        <script type="text/javascript" src="main.js"></script>
-    </div> -->
-    <div class="card">
-        <script type="text/javascript">
-            atOptions = {
-                'key' : '6aef16734c61f6b75e8a04dc176ba396',
-                'format' : 'iframe',
-                'height' : 300,
-                'width' : 160,
-                'params' : {}
-            };
-            document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/6aef16734c61f6b75e8a04dc176ba396/invoke.js"></scr' + 'ipt>');
-        </script>
-    </div>
+    <header class="header">
+        <h3>Portifolio</h3>
+        <section>
+            <nav>
+                <ul class="menuheader">
+                    <li><a class="menuheaderitem" href="index.html">Home</a></li>
+                    <li><a class="menuheaderitem" href="#portifolio">Projetos</a></li>
+                    <li><a class="menuheaderitem" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="personabout">
+            <div class="textabout">
+                <p id="title">
+                    Olá eu sou Antonio Ailton Desenvolvedor Full Stack, e entusiasta de tecnologia.
+                </p>
+                <p id="aboutme">
+                    Atualmente estudo na FIAP, curso de analise e desenvolvimento de sistemas.
+                    Além de trabalhar como analista no Exercito Brasileiro.
+                </p>
+                <div id="email">
+                    <img src="/index/img/email.png" alt="email icon" id="person">
+                    <p>antonnioaiton723@gmail.com</p>
+                </div>
+            </div>
+            <img src="/index/img/ailton3.png" alt="pessoa">
+        </section>
+        <section id="projetos" class="portifolio">
+            <img src="/index/img/seta.png" alt="rolagem" id="seta_rolagem">
+            <div class="cards">
+                <div class="card">
+                    <img src="/index/img/preserv.png" alt="project">
+                    <h2>
+                        Cadastro de Usuario
+                    </h2>
+                    <a href="static_pages/projeto_finanças/cadastro_usuario/index.html">
+                        <button>Cadastro de Usuario</button>
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam, doloremque, eaque, eius, eveniet, impedit ipsa
+                        laboriosam maiores nam natus nemo nihil odio officia
+                        perspiciatis quae quisquam quod ratione repellendus
+                        repudiandae saepe sequi sint sit tempora totam unde vel
+                        voluptatem.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/index/img/landing_page1.png" alt="project">
+                    <h2>
+                        Landiing page
+                    </h2>
+                    <a href="static_pages/landing_page_full_screen/">
+                        <button>Landiing page</button>
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam, doloremque, eaque, eius, eveniet, impedit ipsa
+                        laboriosam maiores nam natus nemo nihil odio officia
+                        perspiciatis quae quisquam quod ratione repellendus
+                        repudiandae saepe sequi sint sit tempora totam unde vel
+                        voluptatem.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/index/img/preserv.png" alt="project">
+                    <h2>
+                        Projeto 1
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam, doloremque, eaque, eius, eveniet, impedit ipsa
+                        laboriosam maiores nam natus nemo nihil odio officia
+                        perspiciatis quae quisquam quod ratione repellendus
+                        repudiandae saepe sequi sint sit tempora totam unde vel
+                        voluptatem.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <section id="funcionais">
-        <div class="card">
-            <img src="main.png" alt="modelo minimizado">
-            <a href="static_pages/projeto_finanças/cadastro_usuario/index.html">
-                <button>cadastro de usuario</button>
-            </a>
-        </div>
-        <div class="card">
-            <img src="main.png" alt="modelo minimizado">
-            <a href="static_pages/projeto_finanças/Dashboard/index.html">
-                <button>Dashboard</button>
-            </a>
-        </div>
-        
-    </section>
-    <section id="modelos">
-        <div class="card">
-            <img src="main.png" alt="modelo minimizado">
-            <a href="landing_page_full_screen/index.html">
-                <button>Landiing page</button>
-            </a>
-        </div>
-        
-        <div class="card">
-            <img src="main.png" alt="modelo minimizado">
-            <a href="static_pages/Kibelicia/index.html">
-                <button>Kibelicia</button>
-            </a>
-        </div>
-    </section>
-    
 </body>
+
 </html>
