@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+    font-family: 'Manrope', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
+}
+:root {
+    --main-text-color: #DEDEDE;
+    --title-text-color: #959595;
+    --main-background-color: #323232;
+    --secondary-background-color: #353535;
+}
+a{
+    text-decoration: none;
+    color: var(--main-text-color);
+    text-decoration-color: var(--main-text-color);
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--main-background-color);
+    color: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.menuheader{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 80px 90px 0px 90px;
+}
+/* ABOUT PERSON */
+#personabout{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 150px;
+    
+}
+
+#personabout img{
+    width: 350px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+#title{
+    color: var(--main-text-color);
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#aboutme{
+    color: var(--title-text-color);
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#email{
+    width: 500px;
+    height: 50px;
+    background-color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    border-radius: 4px;
+    font-size: 1.4em;
+
+    margin: 40px 0px 40px 30px;
+}
+
+#email img{
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    border-radius: 0;
+}
+
+#projetos{
+    background-color: var(--secondary-background-color);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#projetos #seta_rolagem{
+    width: 30px;
+    height: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 45%;
+    height: auto;
+    background-color: var(--main-background-color);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 15px;
+    text-align: justify;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card > img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
